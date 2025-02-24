@@ -2,7 +2,6 @@ from setuptools import find_packages, setup
 from typing import List
 
 
-
 def get_requirements(file_path: str) -> List[str]:
     hyphen_e_dot = '-e .'
     requirements = []
